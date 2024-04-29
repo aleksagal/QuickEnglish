@@ -16,7 +16,7 @@ npm install -g live-server
 
 ### Design
 Przed napisaniem aplikacji wstępny projekt wizualny testu zrobiłam w figmie:
-```https://www.figma.com/file/xupsTSRnXhItzJXiDt7Xfq/Untitled?type=design&node-id=0-1&mode=design&t=VOV2xp0KsdNRVETh-0```
+```https://www.figma.com/file/xupsTSRnXhItzJXiDt7Xfq/QuickEnglish?type=design&node-id=0%3A1&mode=design&t=YGIxs2DXP65b1eTa-1```
 
 Dodatkowo opracowałam grafiki i logo.
 
