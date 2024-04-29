@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=M+PLUS+Rounded+1c:wght@400;700&family=Protest+Guerrilla&display=swap"
+    rel="stylesheet">
+  <title>Title</title>
+</head>
+<body>
+<header class="navbar">
+  <nav>
+    <div class="nav-container">
+      <img class="logo" src="img/logo.svg" alt="quickEnglish logo">
+      <ul class="links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="index.html#course">Course</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li>
+          <a href="/test.html" class="button">Test online</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<section id="content-wrapper">
+  <div class="quiz-container">
+    <h1>Test: English level</h1>
+    <h2><span id="questionNumber"></span>/<span id="questionsNumber"></span></h2>
+    <h3 id="question">question</h3>
+    <form id="myForm">
+      <div class="answers">
+        <div class="input-button">
+          <input type="radio" name="answer" value="a" id="a" class="hidden-radio" required>
+          <label for="a" class="btn" id="label-a">A</label>
+        </div>
+        <div class="input-button">
+          <input type="radio" name="answer" value="b" id="b" class="hidden-radio">
+          <label for="b" class="btn" id="label-b">B</label>
+        </div>
+        <div class="input-button">
+          <input type="radio" name="answer" value="c" id="c" class="hidden-radio">
+          <label for="c" class="btn" id="label-c">C</label>
+        </div>
+        <div class="input-button">
+          <input type="radio" name="answer" value="d" id="d" class="hidden-radio">
+          <label for="d" class="btn" id="label-d">D</label>
+        </div>
+      </div>
+      <div class="button-submit-container">
+        <button type="submit" class="button-submit" id="button-submit">Submit</button>
+      </div>
+    </form>
+  </div>
+  <div class="quiz-result">
+    <h2>Congratulation</h2>
+    <h1>Test: English level</h1>
+    <h3>You answered </h3>
+    <p><span id="result"></span>/<span id="allQuestions"></span></p>
+    <h3> question corrected</h3>
+    <div class="buttons-result">
+      <button class="button-refresh" onclick="playAgain()"><span></span>Play again</button>
+      <button class="button-home" onclick="window.location.href = 'index.html';">Back to home</button>
+    </div>
+  </div>
+  <div class="quiz-navigation">
+    <button class="button-back" id="button-back" onclick="backQuestion()"><span></span>Back</button>
+    <button class="button-next" id="button-next" onclick="nextQuestion()">Next<span></span></button>
+  </div>
+</section>
+<footer>
+  <div class="footer">
+    <img class="logo" src="img/logo-white.svg" alt="quickEnglish logo">
+    <div class="row">
+      <ul>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Career</a></li>
+      </ul>
+    </div>
+    <div class="row">
+      Copyright © 2024 Designed By: Aleksandra Gałat
+    </div>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
