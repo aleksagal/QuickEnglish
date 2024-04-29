@@ -9,6 +9,10 @@ Pisząc aplilację założyłam, że nie będę korzystać zbyt bardzo z dodatko
 w zadaniu byłam poproszona o pisanie w JS/HTML/CSS.
 
 Podczas pracy nad projektem wykorzystałam ```live-server```, do odpalania aplikacji.
+Aby odpalić aplikację należy wejść w katalog  ```QuickEnglish``` oraz włączyć live-server, który można zainstalować:
+```
+npm install -g live-server
+```
 
 ### Design
 Przed napisaniem aplikacji wstępny projekt wizualny testu zrobiłam w figmie:
